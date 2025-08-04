@@ -122,8 +122,8 @@ travel_insurance = st.sidebar.checkbox("🛡️ Get Travel Insurance")
 currency_converter = st.sidebar.checkbox("💱 Currency Exchange Rates")
 
 # Replace with your actual API keys
-SERPAPI_KEY = "c20c3db60d930b59a12f1054869469d22a653106da52aeb657789cd44d8d2d3b"  # SerpAPI key
-GOOGLE_API_KEY = "AIzaSyBvBE3xN6i9fIFw1MXIaFyCKBLvHIaMjT4"  # Google API key
+SERPAPI_KEY = ""  # SerpAPI key
+GOOGLE_API_KEY = ""  # Google API key
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Function to fetch flight data
